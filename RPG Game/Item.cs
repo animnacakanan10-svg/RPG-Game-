@@ -12,6 +12,6 @@
             Description = description;
         }
 
-        public abstract void Use(;)
+        public abstract void Use(Character character);
     }
 }
