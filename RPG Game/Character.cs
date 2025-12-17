@@ -31,7 +31,7 @@ namespace RPG_Game
             get => _strength;
             protected set => _strength = Math.Max(1, value);
         }
-        public bool IsAlive => -Health > 0;
+        public bool IsAlive => Health > 0;
 
         protected Character(int health, int strength, string name)
         {

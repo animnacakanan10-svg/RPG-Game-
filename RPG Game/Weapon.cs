@@ -10,6 +10,10 @@ namespace RPG_Game
             Damage = damage;
         }
 
+        protected Weapon(string name, string description) : base(name, description)
+        {
+        }
+
         public void Equip(Player player)
         {
             Console.WriteLine($"{Name} екіпіровано! (+{Damage} до атаки) ");
